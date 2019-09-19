@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Jeu plateau</title>
+	<link rel="icon" href="media/fist-min.png">
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/map.js"></script>
+	<script type="text/javascript" src="js/move.js"></script>
+	<script type="text/javascript" src="js/player.js"></script>
+	<script type="text/javascript" src="js/weapon.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+	<p id="textCombat"></p>
+	<div id="p1">
+		<p class="timer" id="timer1">15</p>
+		<h2></h2>
+
+		<div id="con">
+			<button class="weapon1" id="weapon_p1"  disabled onclick="game.players.attack();"></button>
+			<button class="shield" id="shieldP1"  disabled onclick="game.players.shield();"></button>
+		</div>
+		<p id="pdvP1"></p>
+		<p id="dpsP1"></p>
+		
+		<button id="passButton1" disabled onclick="game.pass();">PASSER</button>
+	</div>
+
+	<div id="p-1">
+		<p class="timer" id="timer-1">15</p>
+		<h2></h2>
+		<div id="con">
+			<button class="weapon1" id="weapon_p-1" disabled onclick="game.players.attack();"></button>
+			<button class="shiel2" id="shieldP2"  disabled onclick="game.players.shield();"></button>
+		</div>
+		<p id="pdvP-1"></p>
+		<p id="dpsP-1"></p>
+		
+		<button id="passButton-1" disabled onclick="game.pass();">PASSER</button>
+	</div>
+
+	<div class="container">
+		
+		<div id="map"></div>
+		<button onclick="game.new();" id="newgame">Nouvelle Partie</button>	
+	</div>
+	
+	
+</body>
+</html>

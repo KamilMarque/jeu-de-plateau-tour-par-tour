@@ -1,0 +1,183 @@
+body {
+	height: 100%;
+	width: 100%;
+	background-color: white;
+}
+
+button {
+	background-color: #e7e7e7;
+	margin-top: 10px;
+	border-radius: 12px;
+	border: 2px solid black;
+	outline: 0;
+}
+
+.timer {
+	font-size: 2em;
+	color: black;
+	float: left;
+	margin-left: 15px;
+}
+
+#passButton1, #passButton-1 {
+	margin: auto;
+	height: 50px;
+	width: 150px;
+}
+
+#p1 h2 {
+	height: 300px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-image: url("../media/player1-min.png");
+}
+
+#p-1 h2 {
+	height: 300px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-image: url("../media/player2-min.png");
+}
+
+#textCombat {
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid;
+	width: 1000px;
+	height: 70px;
+	overflow: auto;
+}
+
+.container {
+	text-align: center;
+	width: 100%;
+}
+
+#map {
+	margin-left: auto;
+	margin-right: auto;
+	height: 620px;
+	width: 620px;
+}
+
+div[class*="square-"] {
+  background-color: white;
+  border: 1px solid black;
+  display: block;
+  float: left;
+  width: 60px;
+  height: 60px;
+}
+
+#newgame {
+	width: 200px;
+	height: 50px;
+	margin-bottom: 10px;
+}
+
+#p1, #p-1 {
+	display: block;
+	text-align: center;
+	margin-top: 60px;
+	height: 600px;
+	width: 300px;
+}
+
+#p1 {
+	float: left;
+	margin-left: 100px;
+	/*background-color: #C04B4E;*/
+	background-color: white;
+	box-shadow: 1px 1px 10px #C04B4E;
+}
+
+#p-1 {
+	float: right;
+	margin-right: 100px;
+	box-shadow: 1px 1px 10px #7CAFB0;
+}
+
+#con {
+	display: flex;
+	justify-content: space-around;
+	height: 100px;
+}
+
+#weapon_p1, #weapon_p-1{
+	display: flex;
+	height: 80px;
+	width: 80px;
+}
+
+#shieldP1, #shieldP2 {
+	display: flex;
+	height: 80px;
+	width: 80px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-image: url("../media/shield.png");
+}
+
+.weapon1 {
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-image: url("../media/fist-min.png");
+}
+
+.weapon2 {
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-image: url("../media/knifeo-min.png");
+}
+
+.weapon3 {
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-image: url("../media/bowo-min.png");
+}
+
+.weapon4 {
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-image: url("../media/m16o-min.png");
+}
+
+.weapon5 {
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-image: url("../media/wando-min.png");
+}
+
+.tree {
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-image: url("../media/tree-min.png");
+}
+
+.player1 {
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-image: url("../media/player1-min.png");
+}
+
+.player-1 {
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-image: url("../media/player2-min.png");
+}
+
+.pass {
+	opacity: 0.4;
+}
+
+div[class*="square-"].move-1 {
+	background-size: 100%;
+	background-color: blue;
+}
+
+div[class*="square-"].move1 {
+	background-size: 100%;
+	background-color: red;
+}
